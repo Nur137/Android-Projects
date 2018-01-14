@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "169123345686",
+    "firebase_url": "https://mahen-b8b3f.firebaseio.com",
+    "project_id": "mahen-b8b3f",
+    "storage_bucket": "mahen-b8b3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169123345686:android:b027d6e261070f47",
+        "android_client_info": {
+          "package_name": "com.example.mona.mahen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169123345686-b4hrq7pd3gc7jrrfl5n040eiqf2vmgoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmio3QqN_KgAtZNSj-Q8E2hrFdXHiQJLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169123345686:android:c86742381523046b",
+        "android_client_info": {
+          "package_name": "com.example.mona.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169123345686-b4hrq7pd3gc7jrrfl5n040eiqf2vmgoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmio3QqN_KgAtZNSj-Q8E2hrFdXHiQJLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

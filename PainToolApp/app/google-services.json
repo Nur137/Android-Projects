@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "398687919924",
+    "firebase_url": "https://uxpaintool.firebaseio.com",
+    "project_id": "uxpaintool",
+    "storage_bucket": "uxpaintool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398687919924:android:b6460650f133d035",
+        "android_client_info": {
+          "package_name": "com.example.nur.uxpaintool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398687919924-hhl4b6dm0kiv2taqgeeoa3hltjrh0h9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLA7FDbzZuAmHIHyonfS9i9y5xvHqo2LE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398687919924:android:9bb88442b45fb49d",
+        "android_client_info": {
+          "package_name": "com.example.nur.paintoolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398687919924-hhl4b6dm0kiv2taqgeeoa3hltjrh0h9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLA7FDbzZuAmHIHyonfS9i9y5xvHqo2LE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

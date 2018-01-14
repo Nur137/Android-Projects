@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_front"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nur.paintoolapp.UI.Front">
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"></LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:baselineAligned="false">
+
+
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:id="@+id/patient"
+                    android:layout_weight="1" >
+                    <ImageView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/patient_male"
+                        android:contentDescription="@string/Patient"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Patient"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:id="@+id/doctor"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/male_doc"
+                        android:contentDescription="@string/Doctor"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Doctor"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center"
+                        tools:text="@string/Doctor" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"></LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/loading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

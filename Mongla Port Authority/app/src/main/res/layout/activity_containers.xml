@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_containers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nur.monglaport.UI.Containers">
+
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@drawable/background"
+     android:alpha=".2"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="35dp"
+     android:orientation="horizontal"
+     android:background="#184644">
+
+  <ImageView
+      android:layout_width="40dp"
+      android:layout_height="match_parent"
+      android:background="@drawable/rc"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="খালি কনটেইনার"
+      android:textSize="25dp"
+      android:textColor="@android:color/white"
+      android:layout_gravity="center"/>
+
+ </LinearLayout>
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:background="#184644">
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1">
+
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16dp"
+       android:paddingLeft="3dp"
+       android:textColor="@android:color/white"
+       android:text="ক্রমিক নং"/>
+
+  </LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight=".8">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/text1"
+       android:textSize="16dp"
+       android:paddingLeft="3dp"
+       android:textColor="@android:color/white"
+       android:text="এজেন্টের নাম"/>
+
+
+  </LinearLayout>
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/text2"
+       android:textSize="16dp"
+       android:paddingLeft="3dp"
+       android:textColor="@android:color/white"
+       android:text="২০ ফুট ড্রাই"/>
+
+  </LinearLayout>
+
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1">
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/text5"
+       android:textSize="15dp"
+       android:paddingLeft="3dp"
+       android:textColor="@android:color/white"
+       android:text="২০ ফুট রেফার"/>
+  </LinearLayout>
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/text7"
+       android:textSize="15dp"
+       android:paddingLeft="3dp"
+       android:textColor="@android:color/white"
+       android:text="৪০ ফুট ড্রাই"/>
+  </LinearLayout>
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/text8"
+       android:textSize="15dp"
+       android:paddingLeft="3dp"
+       android:textColor="@android:color/white"
+       android:text="৪০ ফুট রেফার"/>
+  </LinearLayout>
+
+
+
+ </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+ <ListView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/lst"></ListView>
+ </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

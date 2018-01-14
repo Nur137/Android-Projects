@@ -1,0 +1,40 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <com.example.mona.mahen.Worker.WSlidingTabLayout
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#218795"
+            android:textColor="#28B34B"
+            android:textSize="30px"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:background="#ffffff" />
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

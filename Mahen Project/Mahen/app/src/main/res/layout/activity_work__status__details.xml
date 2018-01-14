@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_work__status__details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mona.mahen.Account.Work_Status_Details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WORK TITLE"
+                android:textColor="#0088F3"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/e_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work Title: "
+                android:textSize="20dp"
+                />
+
+            <Button
+                android:id="@+id/smap"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_btn1"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:text="SEE IN MAP"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/list"></ListView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_patient__settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nur.paintoolapp.UI.Patient_Settings">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ff1ebe50"
+        android:layout_alignParentTop="true"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Settings"
+            android:textColor="#ffffffff"
+            android:id="@+id/PSet"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="General"
+        android:id="@+id/textView18"
+        android:textStyle="bold"
+        android:textColor="#ff1ebe50"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/relativeLayout9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Add Icon to Home Screen"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#ff1ebe50"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView18"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Trun Notifications On"
+        android:textColor="#ff1ebe50"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Change Password"
+        android:textColor="#ff1ebe50"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="About"
+        android:textStyle="bold"
+        android:textColor="#ff1ebe50"
+        android:id="@+id/textView22"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Build Version"
+        android:textColor="#ff1ebe50"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView22"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Version 1.1"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:layout_toRightOf="@+id/textView22"
+        android:layout_toEndOf="@+id/textView22" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:background="#ffffffff"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:checked="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_toRightOf="@+id/textView19"
+        android:layout_alignTop="@+id/textView19"
+        android:singleLine="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:checked="false"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox"
+        android:clickable="false" />
+
+</RelativeLayout>

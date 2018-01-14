@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "243065001978",
+    "firebase_url": "https://monglaport-d4201.firebaseio.com",
+    "project_id": "monglaport-d4201",
+    "storage_bucket": "monglaport-d4201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243065001978:android:ae1e461f76c30d31",
+        "android_client_info": {
+          "package_name": "com.example.nur.monglaport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243065001978-hfvvnvoh0mb2d5ts227fgcisoqiqdaum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXcZy32BKqLMmTOLyFL9xgrYZ5yWu9TtQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#26AE90"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_doctor_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26AE90"
+    tools:context="com.example.nur.paintoolapp.UI.Doctor_profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hello Patient"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:text="Country"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+id/country"
+                android:layout_marginTop="40dp"
+                android:background="@android:color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="13dp"
+                android:text="Province"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <EditText
+                android:id="@+id/province"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="13dp"
+                android:text="ZIP code"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <EditText
+                android:id="@+id/zip_code"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:inputType="textPassword" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="13dp"
+                android:text="Detail Address"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <EditText
+                android:id="@+id/det_add"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:inputType="textPassword" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="13dp"
+                android:text="Qualification"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+            <EditText
+                android:id="@+id/qualification"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+
+                android:inputType="textPassword" />
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="UPDATE"
+            android:layout_marginTop="30dp"
+            android:textColor="#008FC8"
+            android:onClick="onSignUpClicked"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>

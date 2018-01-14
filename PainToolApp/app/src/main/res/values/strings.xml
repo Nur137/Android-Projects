@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UXPain Tool</string>
+    <string name="Patient">Patient</string>
+    <string name="Doctor">Doctor</string>
+    <string name="log_in_as">Log In As</string>
+
+    <string name="not_a_member">Not a member? Sign up now</string>
+
+
+    //Login, Signup strings
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="login">LOGIN</string>
+
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="day">Day</string>
+
+
+</resources>

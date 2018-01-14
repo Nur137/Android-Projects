@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:id="@+id/afw"
+        android:layout_marginBottom="-1dp">
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:text="A"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="30dp"
+            android:background="@drawable/button"
+            android:id="@+id/c_bigletter"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="0dp"
+            android:gravity="center_vertical"
+            android:id="@+id/ll_list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:text="Apply For Work"
+                android:textSize="23dp"
+                android:id="@+id/c_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Necessary work apply here"
+                android:textSize="18dp"
+                android:textColor="#28B34B"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/c_sub" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:id="@+id/work"
+        android:layout_marginBottom="-1dp">
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:text="M"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="30dp"
+            android:background="@drawable/button"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="0dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:text="My Works"
+                android:textSize="23dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="My work details"
+                android:textSize="18dp"
+                android:textColor="#28B34B"
+                android:layout_marginLeft="5dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

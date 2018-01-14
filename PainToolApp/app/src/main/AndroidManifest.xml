@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nur.paintoolapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".FirebaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.Front">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.Patient_Signup" />
+        <activity android:name=".UI.Patient_Login" />
+        <activity android:name=".UI.Doctor_Signup" />
+        <activity android:name=".UI.Doctor_Login" />
+        <activity android:name=".UI.Patient_Rating" />
+        <activity android:name=".UI.Patient_Home" />
+        <activity android:name=".UI.Doctor_Home" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".UI.Doctor_patients" />
+        <activity android:name=".UI.Doctor_patient_status" />
+        <activity android:name=".UI.Patient_profile" />
+        <activity android:name=".UI.Doctor_settings" />
+        <activity android:name=".UI.Patient_Settings" />
+        <activity android:name=".UI.Doctor_search_patient" />
+        <activity android:name=".UI.Patient_Doctor" />
+        <activity android:name=".UI.Doctor_Qualification" />
+        <activity android:name=".UI.Doctor_profile" />
+        <activity android:name=".UI.Doctor_patient_Info" />
+        <activity android:name=".UI.Doctor_Patient_page_data" />
+        <activity android:name=".UI.Doctor_Patient_page_info" />
+        <activity android:name=".UI.Doctor_Patient_Data" />
+        <activity android:name=".UI.Doctor_Patient_Info" />
+    </application>
+
+</manifest>
